@@ -1,0 +1,19 @@
+GET http://localhost:5000/
+
+###
+GET http://localhost:5000/user/shailash
+
+###
+POST http://localhost:5000/user/authenticate 
+Content-Type: application/json
+
+{
+    "username":"imran",
+    "password":"admin@1234"
+}
+
+###
+GET http://localhost:5000/userData
+
+###
+GET http://localhost:8000/
